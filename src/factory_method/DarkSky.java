@@ -1,9 +1,9 @@
 package factory_method;
 
-public class AsusLaptop implements ILaptop {
+public class DarkSky implements IWeather {
 
     @Override
     public String getName() {
-        return "Asus";
+        return "DarkSky";
     }
 }

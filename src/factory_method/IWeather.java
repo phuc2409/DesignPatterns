@@ -1,6 +1,6 @@
 package factory_method;
 
-public interface ILaptop {
+public interface IWeather {
 
     String getName();
 }

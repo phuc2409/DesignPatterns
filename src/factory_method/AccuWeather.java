@@ -1,9 +1,9 @@
 package factory_method;
 
-public class DellLaptop implements ILaptop {
+public class AccuWeather implements IWeather {
 
     @Override
     public String getName() {
-        return null;
+        return "AccuWeather";
     }
 }

@@ -3,7 +3,7 @@ package factory_method;
 public class Main {
 
     public static void main(String[] args) {
-        ILaptop laptop = LaptopFactory.getLaptop(LaptopBrand.ASUS);
-        System.out.println(laptop.getName());
+        IWeather weather = WeatherFactory.getWeather(WeatherType.ACCU_WEATHER);
+        System.out.println(weather.getName());
     }
 }
