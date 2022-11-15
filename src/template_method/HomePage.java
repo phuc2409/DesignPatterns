@@ -1,6 +1,6 @@
 package template_method;
 
-public class HomePage  extends PageTemplate {
+public class HomePage extends PageTemplate {
 
     @Override
     protected void showBody() {
